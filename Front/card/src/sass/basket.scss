@@ -1,0 +1,34 @@
+.basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    table{
+        border:  1px solid #1fa67a;
+        width: 75%;
+        margin-top: 50px;
+        td{
+            text-align: center;
+            .count{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                .plus{
+                    color: rgb(38, 189, 38);
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+                .minus{
+                    color: rgb(221, 20, 20);
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+            .remove{
+                color: rgb(221, 20, 20);
+                font-size: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
